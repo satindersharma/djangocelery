@@ -15,3 +15,15 @@ download the latest exe file
 https://github.com/rabbitmq/rabbitmq-server/releases/
 
 (like )https://github.com/rabbitmq/rabbitmq-server/releases/download/v3.9.11/rabbitmq-server-3.9.11.exe
+
+
+add this to your path to use
+C:\Program Files\RabbitMQ Server\rabbitmq_server-3.9.10\sbin
+
+to use cli https://rabbitmq.com/management-cli.html
+
+`rabbitmqctl help`
+`rabbitmq-diagnostics help status`
+
+## to see the status
+`rabbitmq-diagnostics status`
