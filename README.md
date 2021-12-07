@@ -116,6 +116,9 @@ __all__ = ['celery_app']
 
 ### https://docs.celeryproject.org/en/stable/django/first-steps-with-django.html#extensions
 
+### https://djangostars.com/blog/the-python-celery-cookbook-small-tool-big-possibilities/
+
+
 ## Celery
 
 ### `celery -A ZKTecoProject worker -l info`
@@ -198,3 +201,17 @@ PeriodicTask.objects.update(last_run_at=None)
 ### `celery -A ZKTecoProject flower`
 
 ### `celery -A ZKTecoProject status`
+
+
+
+
+
+
+## Start steps
+### `rabbitmqctl start_app`
+
+### `celery -A ZKTecoProject worker -E --loglevel=INFO --without-heartbeat --without-gossip --without-mingle`
+
+### `celery -A ZKTecoProject beat`
+
+### `celery -A ZKTecoProject flower`
